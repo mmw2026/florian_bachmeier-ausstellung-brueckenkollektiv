@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Florian Bachmeier – Im Osten</title>
+    <style>
+        :root { --main-bg: #ffffff; --text-color: #333; --accent: #888; }
+        body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.6; color: var(--text-color); margin: 0; padding: 0; }
+        
+        /* Navigation (Sticky like Staatsgalerie) */
+        nav { position: sticky; top: 0; background: rgba(255,255,255,0.95); border-bottom: 1px solid #eee; padding: 15px 5%; z-index: 1000; display: flex; overflow-x: auto; }
+        nav a { margin-right: 20px; text-decoration: none; color: var(--text-color); font-weight: bold; font-size: 0.9em; white-space: nowrap; }
+        nav a:hover { color: var(--accent); }
+
+        header { padding-left: 40px; max-width: 800px; }
+        h1 { font-size: 2.5em; margin-bottom: 10px; }
+        h3 { font-size: 1.0em; margin-bottom: -20px; }
+        .intro-text { font-size: 1.1em; color: #555; }
+
+        .foreword { padding: 60px 5%; max-width: 800px; margin: 0 auto; background-color: #fdfdfd }
+
+        .intro-text p { text-align: justify; hyphens: auto; line-height: 1.8; margin-bottom: 20px; font-size: 1.1em; }
+
+        blockquote { border-left: 3px solid #333; padding-left: 20px; margin: 40px 0; font-style: italic; color: #555; }
+
+        section { padding: 60px 5%; border-top: 1px solid #eee; }
+        h2 { font-size: 2em; margin-bottom: 40px; text-transform: uppercase; letter-spacing: 2px; }
+
+        .entry { margin-bottom: 80px; max-width: 1000px; }
+        .image-placeholder { width: 100%; aspect-ratio: 16/9; background: #f0f0f0; display: flex; align-items: center; justify-content: center; margin-bottom: 15px; border: 1px dashed #ccc; }
+        .caption { font-style: italic; font-size: 1.0em; color: #666; margin-bottom: 15px; }
+        .description { font-size: 1.1em; max-width: 700px; }
+.navbar {
+    display: flex;
+    flex-wrap: wrap; /* Erlaubt den Umbruch */
+    justify-content: center; /* Optional: Zentrierung */
+    gap: 10px; /* Optional: Abstand zwischen den Links */
+}
+
+.header_balken_color {
+    background-color: #B2BEB5; /* Mintgrün */
+    height: 50px;               /* Höhe des Balkens */
+    width: 100%;                /* Breite */
+    top: 150px;
+}
+        
+        footer { padding: 40px 5%; background: #f9f9f9; font-size: 1.0em; }
+    </style>
+</head>
+<body>
+
+<div class="header_balken_color">
+    <p>
+        
+    </p>
+</div>
+
+<header>
+    <h3>Digitaler Ausstellungsführer</h3>
+    <h1>Im Osten</h1>
+    <p class="intro-text">
+        Fotografien aus neun Ländern <b>Florian Bachmeier</b><br /> 
+        03. Oktober bis 08. November 2026 <br />
+        Ehemalige Kaserne, THI Campus, <br/>
+        Donauwörter Straße B 83 <br/>
+        Neuburg an der Donau</p>
+    <p></p>
+        <img src="2026_FB_Portrait.jpeg" alt="Bild Florian Bachmeier" style="width:40%; max-width:1000px; height:auto;"> 
+    &nbsp; &nbsp;
+        <a href="https://brueckenkollektiv.de/" target="_blank"> 
+        <img src="logo-png.png" alt="Brückenkollektiv" style="width:40%; max-width:1000px; height:auto;"></a> </p>
+</header>
+
+<nav class="navbar">
+    <a href="#foreword">Vorwort</a>
+    <a href="#daheim ">Daheim</a>
+    <a href="#ritual">Ritual</a>
+    <a href="#gewalt">Gewalt</a>
+    <a href="#unterwegs">Unterwegs</a>
+</nav>
+    
+<section id="foreword">
+    <h2>Vorwort</h2>
+    <div class="intro-text">
+        <p>
+             Eine langsame Annäherung an die Menschen, die er fotografiert, sind ein Markenzeichen des international ausgezeichneten Dokumentarfotografen Florian Bachmeier. Geduldig beobachtet er, wie die Menschen leben, wie sie mit den Umbrüchen umgehen, die durch Gewalt, Krieg und Migration entstehen. Aber auch ein verlassenes Zimmer, ein Friedhof, eine Landschaft können vom Leben der Menschen erzählen. 
+Diese Ausstellung führt nach Osteuropa und Südosteuropa, nach Tschechien, Polen, Belarus, Moldau, Georgien, Rumänien, Griechenland, Serbien und in die Ukraine. 
+Für Florian Bachmeier ist der Osten         
+        </p>
+        <blockquote>
+„weniger eine geografische als eine mentale Landschaft. Der Osten entsteht aus Vorstellungen, Ängsten und Bildern, die sich über Jahrhunderte verfestigt haben. Für viele Menschen in Deutschland ist er bis heute ein Raum des Anderen: geprägt von Konflikten, Armut, Korruption, zerfallenden Imperien und einer Geschichte, die nicht vergehen will.“ 
+        </blockquote>
+        <p>
+
+Den Osten begreift Bachmeier dagegen nicht als Gegenwelt zum Westen, 
+        </p>
+        <blockquote>
+„sondern als Ort, an dem die Verletzlichkeit Europas sichtbar bleibt. Hier sind die Brüche der Geschichte noch lesbar. Gerade deshalb stellen sich hier Fragen, die überall gelten: Was bedeutet Würde? Woraus speist sich Hoffnung? Wie bewahren Menschen ihre Erinnerungen? Und wie richten sie sich immer wieder neu ein in einer sich ständig verändernden Welt?“ 
+        </blockquote>
+        <p>
+Die besondere Kraft der Bilder weist über die Regionen hinaus, in denen sie entstanden sind. Sie werden zu einer Betrachtung menschlicher Grunderfahrungen. 
+Internationale Anerkennung fand die künstlerische und politische Haltung von Florian Bachmeier, als ihn World Press Photo im Frühjahr 2025 mit dem Preis für das beste Einzelfoto in der Kategorie Europa auszeichnete. Auch dieses Bild der sechsjährigen Anhelina ist Teil der Ausstellung. 
+
+Alle Bilder können Sie erwerben. Neben dem Gästebuch liegt eine Preisliste aus. </p>
+         <p>  Kuratorin: Mechtild Manus: <br />
+             Telefon: 0151-28818033 <br />
+           Mail:  <a href="mailto:manus_schliersee@posteo.de" target="_blank">manus_schliersee@posteo.de</a> </p>
+
+<p>Mehr Informationen:</p>
+<p> <a href="http://www.florianbachmeier.com" target="_blank">www.florianbachmeier.com</a> </p>
+    </div>
+</section>
+
+<section id="daheim">
+    <h2>Daheim</h2>
+    <div class="entry">
+    <img src="01.jpg" alt="Bildbeschreibung" style="width:100%; max-width:1000px; height:auto;">
+    <div class="caption">
+         HAUS MIT BOOT, SULINA, RUMÄNIEN, 2015 
+
+    </div>
+    <div class="description">
+        Nachdem die Donau 2800 Kilometer durch zehn Länder geflossen ist, mündet sie mit dem Donau- 
+Delta an der Grenze von Ukraine und Rumänien in einer einzigartigen und unzugänglichen 
+Landschaft in das Schwarze Meer. Das Donau-Delta ist eine Welt der Armut und der Rückständigkeit, 
+aber auch eine magische Welt, unstet, nicht zu greifen oder zu begreifen. 
+Florian Bachmeier reist fast jedes Jahr in das Donau-Delta. Es ist für ihn ein ökologisch und 
+gesellschaftlich gefährdeter Raum. Folgen des Klimawandels und gesellschaftliche Umbrüche 
+treQen aufeinander. Wie in einem Brennglas kann man hier die drängenden globalen Probleme 
+unserer Zeit erleben: soziale Ungleichheit, Umweltzerstörung, Flucht. 
+    </div>
+</div>
+    <div class="entry">
+    <img src="02.jpg" alt="Bildbeschreibung" style="width:100%; max-width:1000px; height:auto;">
+    <div class="caption">
+         MARIA, CHILIA VECHE, RUMÄNIEN, 2017 
+
+    </div>
+    <div class="description">
+        Seit vielen Jahren begleitet Florian Bachmeier einzelne Familien im Donau-Delta, etwa den russisch- 
+altgläubigen Priester Ion und seine bettlägerige Frau Maria. Neben den Altgläubigen russischer 
+Herkunft leben im Donau-Delta auch Katholiken, Protestanten, orthodoxe Christen und andere 
+religiöse Gruppen. Die Geistlichen leben von den Zuwendungen der Gläubigen. In dieser 
+abgeschiedenen Welt der Holzboote, Schilfhütten und Fischerdörfer sind Glaube und Spiritualität ein 
+wichtiger Anker im Alltag. 
+    </div>
+</div>
+    <div class="entry">
+    <img src="03.jpg" alt="Bildbeschreibung" style="width:100%; max-width:1000px; height:auto;">
+    <div class="caption">
+         ERDÄPFEL, CARDON, RUMÄNIEN, 2015 
+
+    </div>
+    <div class="description">
+        Am Rand des abgeschiedenen Dorfes Cardon erntet die Bäuerin ein paar Erdäpfel. Hier leben vor allem Menschen ukrainischer und bulgarischer Herkunft, die einst vor Gewalt und Verfolgung hierher geflüchtet waren. 
+    </div>
+</div>
+    <div class="entry">
+    <img src="04.jpg" alt="Bildbeschreibung" style="width:100%; max-width:1000px; height:auto;">
+    <div class="caption">
+         SPIEL, C.A. ROSETTI, RUMÄNIEN, 2015 
+
+    </div>
+    <div class="description">
+Viele Kinder wachsen bei den Großeltern auf, während die Eltern in Westeuropa den Lebensunterhalt für die gesamte Familie verdienen. Nach der Grundschule leben viele Jugendliche in Internaten, weil es in den kleinen Dörfern keine weiterführenden Schulen gibt. Diese Jungen haben Glück: in C.A. Rosetti gibt es für sie eine weiterführende Schule. 
+    </div>
+</div>
+    <div class="entry">
+    <img src="05.jpg" alt="Bildbeschreibung" style="width:100%; max-width:1000px; height:auto;">
+    <div class="caption">
+         ANHELINA, BORSCHTSCHIWKA, UKRAINE, 2024 
+
+    </div>
+    <div class="description">
+Die sechsjährige Anhelina lebt bei ihrer Großmutter in Borschtschiwka. Sie ist traumatisiert vom ständigen Beschuss, leidet unter Panikattacken. 2025 gewann Florian Bachmeier damit einen World Press Photo Award. Es beeindruckte die Jury, „wie es dem Fotografen gelang, ein solch stilles Bild aufzunehmen, das gleichwohl die Betrachtenden veranlasst, innezuhalten und einen Aspekt des russischen Kriegs gegen die Ukraine zu bedenken, der ansonsten nicht ausreichend berücksichtigt wird.“ 
+    </div>
+</div>
+    <div class="entry">
+    <img src="06.jpg" alt="Bildbeschreibung" style="width:100%; max-width:1000px; height:auto;">
+    <div class="caption">
+         KATYA MIT YULIIA, VOSKRESENIVKA, UKRAINE, 2026 
+
+    </div>
+    <div class="description">
+In dem Dorf Voskresenivka lernt der Fotograf eine Familie kennen, die schon fünf Mal flüchten 
+musste. Besonders schwer ist das für die sechsjährige Yuliia. Sie hat Trisomie 21. Kinder mit 
+Behinderungen leiden besonders stark unter den abrupten Veränderungen, die mit der Flucht 
+verbunden sind. Sie können auch nicht gefördert werden wie in Friedenszeiten. Die 15-jährige Katya 
+kümmert sich liebevoll um ihre kleine Schwester. 
+    </div>
+</div>
+    <div class="entry">
+    <img src="07.jpg" alt="Bildbeschreibung" style="width:100%; max-width:1000px; height:auto;">
+    <div class="caption">
+         SASCHA UND LISA, MARINKA, UKRAINE, 2016 
+
+    </div>
+    <div class="description">
+Sascha (20) und Lisa (17) bleiben in ihrem teilweise zerstörten Haus an der Front im Donbass. Nach 
+Beginn der Kämpfe 2014 ging Saschas Mutter weiterhin zur Arbeit im damals von Separatisten 
+kontrollierten Gebiet. Nach wenigen Tagen wurde sie auf dem Weg von einer Granate zerfetzt. Sascha 
+möchte sich keiner Seite anschließen und sein Haus nicht mehr verlassen, solange der Krieg 
+andauert. 
+    </div>
+</div>
+    <div class="entry">
+    <img src="08.jpg" alt="Bildbeschreibung" style="width:100%; max-width:1000px; height:auto;">
+    <div class="caption">
+         SPIELPLATZ, SIEDLUNG KOPEČNÁ, CHOMUTOV, TSCHECHIEN, 2011 
+
+    </div>
+    <div class="description">
+Kinder einer marginalisierten Roma-Gemeinde auf ihrem Spielplatz in der Siedlung Kopečná. Sie ist Teil von Chomutov, einer ehemaligen Industrie- und Bergbaustadt in Nordböhmen. 
+
+    </div>
+</div>
+    <div class="entry">
+    <img src="09.jpg" alt="Bildbeschreibung" style="width:100%; max-width:1000px; height:auto;">
+    <div class="caption">
+         VERLASSENES HAUS, GALI, AUTONOME REPUBLIK ABCHASIEN (GEORGIEN), 2017 
+
+    </div>
+    <div class="description">
+        Viele Menschen haben die Autonome Republik Abchasien wegen des georgisch-abchasischen 
+Krieges 1992/1993 und weiterer kriegerischer Auseinandersetzungen, die von Russland gesteuert 
+waren, verlassen. Die wenigsten Flüchtlinge sind zurückgekehrt. Dieses Haus steht schon lange leer. 
+Auf den Kacheln hat sich bereits Schimmel ausgebreitet. 
+    </div>
+</div>
+
+
+</section>
+
+<section id="ritual">
+    <h2>Ritual</h2>
+    <div class="entry">
+    <img src="10.jpg" alt="Bildbeschreibung" style="width:100%; max-width:1000px; height:auto;">
+    <div class="caption">
+         HOCHZEIT, LETEA, RUMÄNIEN, 2015 
+
+    </div>
+    <div class="description">
+        Da das Delta durch ein Labyrinth aus Kanälen, Seen und Schilfgürteln vom Festland getrennt ist, sind Hochzeitsrituale stark nach innen gerichtet. Die physische Abgeschiedenheit verstärkt den kollektiven Charakter des Festes: die ganze Dorfgemeinschaft wird einbezogen. In den Dörfern verbinden sich rumänische und ukrainische Traditionen mit jenen der früher isoliert lebenden Lipowanern, russischen Altgläubigen. 
+Hochzeiten sind ein hochkomplexes Übergangsritual. Eine Nachbarin kneift die Braut in den Arm, um zu fühlen, wie kräftig sie ist. 
+    </div>
+</div>
+    <div class="entry">
+    <img src="11.jpg" alt="Bildbeschreibung" style="width:100%; max-width:1000px; height:auto;">
+    <div class="caption">
+         HINDERNIS AUF DEM WEG ZUR HOCHZEITSFEIER, LETEA, RUMÄNIEN, 2015 
+
+    </div>
+    <div class="description">
+Traditionell dauern Hochzeiten im ländlichen Raum mehrere Tage. Die Zeremonie besteht aus drei Phasen: Trennung (Vorbereitung und Abschied vom Elternhaus), Schwellenphase (die sakrale Trauung in der Kirche mit Krönungsritualen) und Aggregation (die Aufnahme des Paares in den Status der Verheirateten) beim ausgiebigen Hochzeitsmahl. Hier muss das Brautpaar auf dem Weg zur Feier noch eine Probe bestehen. 
+    </div>
+</div>
+    <div class="entry">
+    <img src="12.jpg" alt="Bildbeschreibung" style="width:100%; max-width:1000px; height:auto;">
+    <div class="caption">
+         TAUFE, LETEA, RUMÄNIEN, 2018 
+
+    </div>
+    <div class="description">
+        Der rote Faden markiert ein neues Leben. In Letea, im rumänischen Donau-Delta, konnte Florian Bachmeier 2018 eine Taufe miterleben. Entsprechend dem Volksglauben wird dem Neugeborenen ein roter Faden ins Haar geflochten. Er steht für Leben, Liebe und die Verbindung zur Gemeinschaft. Auf dem Wasser des dunklen Taufsteins leuchtet der mit den Haaren abgeschnittene rote Faden voller Verheißung. 
+
+    </div>
+</div>
+    <div class="entry">
+    <img src="13.jpg" alt="Bildbeschreibung" style="width:100%; max-width:1000px; height:auto;">
+    <div class="caption">
+         OHNE TITEL, LETEA, RUMÄNIEN, 2018 
+
+    </div>
+    <div class="description">
+        Viele Menschen verlassen das Donau-Delta auf der Suche nach Arbeit. Kleine Kinder bleiben zurück 
+bei den Großeltern. Dieser kleine Junge hat gerade seinen Großvater verloren. Er begleitet ihn auf 
+dem Weg zum Friedhof. 
+    </div>
+</div>
+    <div class="entry">
+    <img src="14.jpg" alt="Bildbeschreibung" style="width:100%; max-width:1000px; height:auto;">
+    <div class="caption">
+         KIRCHWEIH, SULINA, RUMÄNIEN, 2014 
+
+    </div>
+    <div class="description">
+        Zur Kirchweih gestalten die Menschen gemeinsam ein Buffet. Alle sind aufeinander angewiesen, 
+Traditionen und Rituale stiften Gemeinschaft. Die Bevölkerungsdichte ist hier am östlichsten Rand 
+der Europäischen Union mit 3,5 Personen pro Quadratkilometer so niedrig wie sonst nirgends. Man 
+unterstützt sich gegenseitig mit Lebensmitteln, bei der Kinderbetreuung, bei Krankheit. 
+    </div>
+</div>
+    <div class="entry">
+    <img src="15.jpg" alt="Bildbeschreibung" style="width:100%; max-width:1000px; height:auto;">
+    <div class="caption">
+         OHNE TITEL, OTSCHAMTSCHYRA, AUTONOME REPUBLIK ABCHASIEN (GEORGIEN), 2017 
+
+    </div>
+    <div class="description">
+        Jedes Wochenende treibt Vater Sergej in der orthodoxen Kirche Dämonen aus. Von weit her strömen 
+die Menschen zu seinen Gottesdiensten mit Exorzismus. Die angespannte politische Situation in 
+Abchasien, Zerstörung von Familien durch dauerhaften Wegzug einiger Familienmitglieder, 
+Aggressionen unter den verschiedenen Volksgruppen fördern menschliche Krisen und psychische 
+Erkrankungen. Sechs Personen baten Vater Sergej an diesem Abend um Heilung. Durch die Worte 
+des Priesters, Gesänge, Kerzen und Weihrauch begannen diese Menschen zu schreien, zu weinen, zu 
+toben, in verschiedenen Sprachen zu sprechen. 
+    </div>
+</div>
+    <div class="entry">
+    <img src="16.jpg" alt="Bildbeschreibung" style="width:100%; max-width:1000px; height:auto;">
+    <div class="caption">
+         OHNE TITEL, OTSCHAMTSCHYRA, AUTONOME REPUBLIK ABCHASIEN (GEORGIEN), 2017 
+
+    </div>
+    <div class="description">
+       Diese Frau wirft sich nach dem Exorzismus außerhalb der Kirche auf den Boden. Ihre Bewegungen deuten eine gewisse Erleichterung an. Die Wiese wird im Vordergrund begrenzt von einem Schotterweg und im Hintergrund von einer Natursteinmauer. Vor dieser befindet sich ein geheimnisvoller Steinkreis. Rechts ein Busch, links hinten die Dächer von Wohnhäusern. Das natürliche Licht bringt den mit weißen Ornamenten bestickten blauen Rock, den orangenen Pullover und das helle Kopftuch zum Leuchten. Die Frau ist das Zentrum dieses Bildes.
+    </div>
+</div>
+    <div class="entry">
+    <img src="17.jpg" alt="Bildbeschreibung" style="width:100%; max-width:1000px; height:auto;">
+    <div class="caption">
+         EPIPHANIA I, NOWOHRYHORIWKA, UKRAINE, 2023 
+
+    </div>
+    <div class="description">
+       Die Wasserweihe an Epiphania beschließt die orthodoxe Weihnachtszeit. Trotz des Krieges halten 
+viele Menschen an ihren religiösen Ritualen fest. Vielleicht geben diese Traditionen ihnen Halt, wenn 
+alles um sie herum zusammenbricht? Im Mai 2022 war die Bevölkerung des Dorfes Nowohryhoriwka 
+beim Herannahen der russischen Armee evakuiert worden. Das Dorf wurde bei den Kämpfen völlig 
+zerstört. Neun Monate später, nach der Rückeroberung durch die Ukraine, sind einige Menschen 
+zurückgekehrt, um ihre Häuser wieder bewohnbar zu machen. Die Gläubigen versammeln sich in der 
+zerstörten Kirche zum Gottesdienst mit Wasserweihe. 
+
+    </div>
+</div>
+    <div class="entry">
+    <img src="18.jpg" alt="Bildbeschreibung" style="width:100%; max-width:1000px; height:auto;">
+    <div class="caption">
+         EPIPHANIA II, NOWOHRYHORIWKA, UKRAINE, 2023 
+
+    </div>
+    <div class="description">
+       Zwischen Schutt und verbranntem Holz markiert die Wasserweihe einen neuen Anfang. Aus dieser 
+Tasse haben die Gläubigen das geweihte Wasser getrunken. Das stille Glitzern des gesegneten 
+Wassers erscheint wie ein Sinnbild des leisen Versuchs, Ordnung in die Verwüstung zu bringen. 
+    </div>
+</div>
+    <div class="entry">
+    <img src="19.jpg" alt="Bildbeschreibung" style="width:100%; max-width:1000px; height:auto;">
+    <div class="caption">
+         INTERNATIONALER FRAUENTAG, TRJOCHISBENKA, UKRAINE, 2019 
+
+    </div>
+    <div class="description">
+       Zu den stärkenden Traditionen im Krieg gehört der Internationale Frauentag am 8. März. Im Dom 
+Kultury (Kulturhaus) schauen sich die Frauen eine Folklore-AuQührung an. Später essen sie 
+gemeinsam. Jede hat etwas mitgebracht. 
+    </div>
+</div>
+    <div class="entry">
+    <img src="20.jpg" alt="Bildbeschreibung" style="width:100%; max-width:1000px; height:auto;">
+    <div class="caption">
+         BEERDIGUNG, STRASENI, MOLDAU, 2014 (Schreibweise des Ortes: Strășeni) 
+
+    </div>
+    <div class="description">
+       Brot ist in Moldau mehr als ein Nahrungsmittel. Es steht für Gastfreundschaft, Gemeinschaft und die Verbundenheit zwischen den Lebenden und den Verstorbenen. Bei Beerdigungen und Gedenkfeiern wird es geteilt und weitergegeben: als Zeichen des Trostes, des Erinnerns und des Lebens, das weitergeht. 
+
+    </div>
+</div>
+
+</section>
+
+<section id="gewalt">
+    <h2>Gewalt</h2>
+<div class="entry">
+    <img src="21.jpg" alt="Bildbeschreibung" style="width:100%; max-width:1000px; height:auto;">
+    <div class="caption">
+         AUSSORTIERT, LWIW, UKRAINE, 2021 
+    </div>
+    <div class="description">
+        Wo einst Welten aufeinanderprallten, ruhen W. I. Lenin, der Begründer der Sowjetunion, und Taras Schewtschenko , der ukrainische Nationaldichter, heute Seite an Seite in einem Skulpturendepot: Endlager der Geschichte. 
+    </div>
+</div>
+    <div class="entry">
+    <img src="22.jpg" alt="Bildbeschreibung" style="width:100%; max-width:1000px; height:auto;">
+    <div class="caption">
+         Vermintes Feld, Marinka, Ukraine, 2016
+    </div>
+    <div class="description">
+        Im winterlichen Morgengrauen liegt ein stiller Glanz über dem Minenfeld in der Nähe von Marinka.
+Der Schnee dämpft den Krieg, verleiht der Landschaft einen trügerischen Schein von Schönheit. Doch
+unter der Oberfläche lauert der Tod. Eine verwundete Landschaft im Osten der Ukraine – vermint,
+verbrannt, entvölkert. Der Krieg schreibt sich in die Erde ein.
+    </div>
+</div>
+    <div class="entry">
+    <img src="23.jpg" alt="Bildbeschreibung" style="width:100%; max-width:1000px; height:auto;">
+    <div class="caption">
+         TATJANA, TRJOCHISBENKA, UKRAINE, 2019 
+    </div>
+    <div class="description">
+        Tatjana hat 2014 in Luhansk durch eine Granate eine Tochter und ein Bein verloren. Sie war mit einer 
+ihrer drei Töchter auf dem Weg zur Krankenstation, als heftiger Beschuss einsetzte. Vom Tod ihrer 
+Tochter erfuhr sie erst neun Tage nach dem AngriQ im Krankenhaus. 
+    </div>
+</div>
+    <div class="entry">
+    <img src="24.jpg" alt="Bildbeschreibung" style="width:100%; max-width:1000px; height:auto;">
+    <div class="caption">
+         PAVEL LATSYBA, BUTSCHA, UKRAINE, 2022 
+    </div>
+    <div class="description">
+        Noch sind nicht alle Opfer des Massakers von Butscha begraben. Pavel Latsyba spricht von 
+mindestens 600 Toten. Der verletzte Soldat hat gerade für einen gefallenen Kameraden ein Grab 
+ausgehoben. Er selbst wurde angeschossen, als er Wasser holen ging. Die Kugel steckt noch in 
+seiner Bauchdecke und kann in der gegenwärtigen Situation nicht entfernt werden. 
+    </div>
+</div>
+    <div class="entry">
+    <img src="25.jpg" alt="Bildbeschreibung" style="width:100%; max-width:1000px; height:auto;">
+    <div class="caption">
+         OHNE TITEL, PRAVDYNE, UKRAINE, 2023 
+    </div>
+    <div class="description">
+        In einem provisorischen Grab werden vorübergehend die Leichen von sechs Zivilisten bestattet. 
+Russische Soldaten hatten diese Menschen gefoltert und erschossen. Um das Kriegsverbrechen zu 
+vertuschen, sprengten sie die Leichen mit einer Granate in die Luft. Erst 40 Tage nach dem 
+Verbrechen erlaubten sie die provisorische Bestattung. Mittlerweile hat Serhij, ein Nachbar der 
+Ermordeten, für eine ordentliche Bestattung gesorgt. 
+    </div>
+</div>
+    <div class="entry">
+    <img src="26.jpg" alt="Bildbeschreibung" style="width:100%; max-width:1000px; height:auto;">
+    <div class="caption">
+         SERHIJ, PRAVDYNE, UKRAINE, 2023 
+    </div>
+    <div class="description">
+        Serhij hat unter Lebensgefahr und trotz wiederholter Drohungen der russischen Besatzer die 
+menschlichen Überreste von sechs Nachbarn bestattet. 
+</div>
+    </div>
+    <div class="entry">
+    <img src="27.jpg" alt="Bildbeschreibung" style="width:100%; max-width:1000px; height:auto;">
+    <div class="caption">
+         FRONTLANDSCHAFT, BEI SIEVIERODONETSK, UKRAINE, 2018 
+    </div>
+    <div class="description">
+    </div>
+</div>
+    <div class="entry">
+    <img src="28.jpg" alt="Bildbeschreibung" style="width:100%; max-width:1000px; height:auto;">
+    <div class="caption">
+         OHNE TITEL, AVDIVKA, UKRAINE, 2015 
+    </div>
+    <div class="description">
+        Zerstörter Häuserblock 
+    </div>
+</div>
+    <div class="entry">
+    <img src="29.jpg" alt="Bildbeschreibung" style="width:100%; max-width:1000px; height:auto;">
+    <div class="caption">
+         OHNE TITEL, PRYPJATSÜMPFE, BELARUS, 2015 
+    </div>
+    <div class="description">
+        Im Süden von Belarus und im Nordwesten der Ukraine, nicht weit entfernt von Tschernobyl, breiten sich auf einer Fläche von 90.000 Quadratkilometern die Prypjatsümpfe aus. Schon im Ersten Weltkrieg waren diese Sümpfe eine Kampfzone. Im Zweiten Weltkrieg begingen Soldaten der Wehrmacht hier Massaker an der jüdischen Bevölkerung. 
+    </div>
+</div>
+   
+    <div class="entry">
+    <img src="30.jpg" alt="Bildbeschreibung" style="width:100%; max-width:1000px; height:auto;">
+    <div class="caption">
+         OHNE TITEL, PRYPJATSÜMPFE, BELARUS, 2015 
+    </div>
+    <div class="description">
+       Die Prypjatsümpfe sind das größte Sumpfgebiet Europas. Es entstand durch das geringe Gefälle der Wasserläufe. 2016 wurde hier das Biosphärenreservat Pripiatskoe Poles'e eingerichtet. Beim AngriQ Russlands auf die Ukraine 2022 erfolgte ein Teil des Vorstoßes durch die Prypjatsümpfe und damit auch durch das Sperrgebiet um Tschernobyl.
+    </div>
+</div>
+
+    <div class="entry">
+    <img src="31.jpg" alt="Bildbeschreibung" style="width:100%; max-width:1000px; height:auto;">
+    <div class="caption">
+        SATELLIT, RAJON TKWARTSCHELI, AUTONOME REPUBLIK ABCHASIEN (GEORGIEN), 2017 
+    </div> 
+    <div class="description">
+Diesen russischen Hubschrauberlandeplatz sah Florian Bachmeier 2017 in Gudauta. Unter 
+Verletzung der georgischen Souveränität hat Russland in Abchasien eigene Truppen und 
+Luftstreitkräfte stationiert. Russland versteht sich als Garant der Staatlichkeit Abchasiens, verfolgt 
+aber gleichzeitig das imperiale Ziel, den Südkaukasus zu kontrollieren. Durch die Gestaltung des 
+Fotografen wird der Landeplatz zu einem Sinnbild des russischen Imperialismus. 
+    </div>
+</div>
+        
+       <div class="entry">
+    <img src="32.jpg" alt="Bildbeschreibung" style="width:100%; max-width:1000px; height:auto;">
+    <div class="caption">
+         OHNE TITEL, AUSCHWITZ, POLEN, 2014 
+    </div>
+    <div class="description">
+      Verfärbungen an den Wänden einer Gaskammer. 
+    </div>
+</div>
+        
+</section>
+    
+    <section id="unterwegs">
+    <h2>Unterwegs</h2>
+<div class="entry">
+    <img src="33.jpg" alt="Bildbeschreibung" style="width:100%; max-width:1000px; height:auto;">
+    <div class="caption">
+         Fähre, Mila 23, Rumänien, 2017
+    </div>
+    <div class="description">
+       Ohne Boot kann man sich im weit verzweigten Donau-Delta kaum fortbewegen. Diese Fähre
+transportiert Personen, Tiere und Güter. Im harten Winter wird sie zur Lebensader zwischen den
+Dörfern des Deltas.
+    </div>
+</div>
+        <div class="entry">
+        <img src="34.jpg" alt="Bildbeschreibung" style="width:100%; max-width:1000px; height:auto;">
+        <div class="caption">
+             OHNE TITEL, SULINA, RUMÄNIEN, 2015 
+    </div>
+    <div class="description">
+        Das Donau-Delta mit seinen vielen Kanälen ist geprägt von einer unwirklichen, flirrenden Schönheit. 
+ 
+Seit 1992 gilt der größere rumänische Teil und seit 1998 der kleinere ukrainische Teil als UNESCO- 
+ 
+Biosphärenreservat und als Weltnaturerbe. Das Donau-Delta ist elfmal so groß wie der Bodensee 
+und das zweitgrößte Flussdelta in Europa. Die schwimmenden Inseln und die weltweit größte 
+Schilffläche funktionieren wie ein Filter. Sie reinigen das Donauwasser, bevor es ins Schwarze Meer 
+fließt. Auf den Inseln im Delta leben 2200 freilaufende Pferde, die größte Population in Europa. 
+Außerdem wurden 4000 andere Tierarten dokumentiert, darunter rote Pelikane, Lachmöwen und 
+Kormorane. 
+    </div>
+</div>
+    <div class="entry">
+    <img src="35.jpg" alt="Bildbeschreibung" style="width:100%; max-width:1000px; height:auto;">
+    <div class="caption">
+         IN DIE STADT, TIRASPOL, TRANSNISTRISCHE MOLDAUISCHE REPUBLIK (MOLDAU), 2013 
+    </div>
+    <div class="description">
+       Am östlichen Ufer des Dnister liegt Tiraspol, eigentlich die zweitgrößte Stadt von Moldau, aber auch Hauptstadt der abtrünnigen Region Transnistrien. Seit dem Transnistrien-Krieg 1992 beharrt die von Russland unterstützte Transnistrische Moldauische Republik auf ihrer Eigenständigkeit, wird bisher aber von keinem Staat anerkannt. In Tiraspol konzentriert sich die russischsprachige Minderheit von Moldau. 
+    </div>
+</div>
+    <div class="entry">
+    <img src="36.jpg" alt="Bildbeschreibung" style="width:100%; max-width:1000px; height:auto;">
+    <div class="caption">
+         OHNE TITEL, STEFANESTI, MOLDAU, 2014
+    </div>
+    <div class="description">
+        Verloren im Schnee – ein Reiter und ein Fuhrwerk auf einer verlassenen Straße im Norden Moldaus. 
+    </div>
+</div>
+        <div class="entry">
+    <img src="37.jpg" alt="Bildbeschreibung" style="width:100%; max-width:1000px; height:auto;">
+    <div class="caption">
+         OHNE TITEL, TARUTYNE, UKRAINE, 2014 
+    </div>
+    <div class="description">
+        
+    </div>
+</div>
+    <div class="entry">
+    <img src="38.jpg" alt="Bildbeschreibung" style="width:100%; max-width:1000px; height:auto;">
+    <div class="caption">
+BAHNHOF, OTSCHAMTSCHYRY, AUTONOME REPUBLIK ABCHASIEN (Georgien), 2017 
+    </div>
+    <div class="description">
+Die verwaisten Schalter eines vergessenen Bahnhofs in Abchasien 
+    </div>
+</div>
+    <div class="entry">
+    <img src="39.jpg" alt="Bildbeschreibung" style="width:100%; max-width:1000px; height:auto;">
+    <div class="caption">
+OHNE TITEL, SAPORISCHSCHJA, UKRAINE, 2022 
+    </div>
+    <div class="description">
+        Seit sieben Tagen ist diese junge Frau aus Cherson zusammen mit anderen in zwei Kleinbussen auf 
+der Flucht. Sie waren zwischen die Fronten geraten. Die Russen ließen sie nicht auf ukrainisch 
+kontrolliertes Gebiet, inszenierten sogar eine Scheinhinrichtung, um die Menschen einzuschüchtern. 
+Schließlich erlaubten sie die Überquerung der Front in das ukrainisch kontrollierte Gebiet bei 
+Saporischschja. Dort auf dem Parkplatz eines Einkaufszentrums entstand das Foto. Es wurde 2022 
+von Pressefoto Bayern mit dem 1. Preis in der Kategorie Europa ausgezeichnet. 
+    </div>
+</div>
+    <div class="entry">
+    <img src="40.jpg" alt="Bildbeschreibung" style="width:100%; max-width:1000px; height:auto;">
+    <div class="caption">
+         OHNE TITEL, IDOMENI, GRIECHENLAND, 2016 
+    </div>
+    <div class="description">
+        Seit Wochen warten über 10.000 Menschen darauf, dass die Grenze nach Mazedonien (heute: 
+Nordmazedonien) und damit die Balkan-Route wieder geöQnet wird. In einem Hauptlager und 
+verschiedenen kleinen Nebenlagern in Idomeni herrschen menschenunwürdige Zustände. Die 
+Flüchtlinge leben in äußerst kleinen Zelten, die hygienischen Zustände sind katastrophal, 
+Krankheiten grassieren, der wochenlange Dauerregen verschärft die Situation. 
+    </div>
+</div>
+    <div class="entry">
+    <img src="41.jpg" alt="Bildbeschreibung" style="width:100%; max-width:1000px; height:auto;">
+    <div class="caption">
+         OHNE TITEL, IDOMENI, GRIECHENLAND, 2026 
+    </div>
+    <div class="description">
+        Nur langsam trocknen im Herbst die lebenswichtigen Decken im Flüchtlingslager. 
+    </div>
+</div>
+    <div class="entry">
+    <img src="42.jpg" alt="Bildbeschreibung" style="width:100%; max-width:1000px; height:auto;">
+    <div class="caption">
+         OHNE TITEL, BELGRAD, SERBIEN, 2017 
+    </div>
+    <div class="description">
+        Der junge Mann hat es bis Belgrad geschaQt. Ob er weiterkommt in Richtung Westeuropa, ist 
+ungewiss. Während der Wintermonate 2016 und 2017 suchen viele Flüchtlinge bei 
+Außentemperaturen von bis zu minus 15 Grad Zuflucht in unbeheizten Lagerhäusern ohne Toiletten 
+oder fließendes Wasser. Die unhygienischen Bedingungen führen zu Haut- und Virusinfektionen. Um 
+sich zu wärmen, verbrennen die Flüchtlinge alte Eisenbahnschwellen, Holz und Müll. Das führt zu 
+dichtem Rauch und zu Atemproblemen. 
+    </div>
+</div>
+    <div class="entry">
+    <img src="43.jpg" alt="Bildbeschreibung" style="width:100%; max-width:1000px; height:auto;">
+    <div class="caption">
+         MOHAMMED ASHFAQ, ŠID, SERBIEN, 2017 
+    </div>
+    <div class="description">
+Mohammed Ashfaq ist 19 Jahre alt und kommt aus Pakistan. Schon 23-mal hat er versucht, vom 
+Flüchtlingslager Šid in Serbien nach Kroatien und damit in die Europäische Union zu gelangen. Die 
+Grenzpolizisten haben ihn misshandelt und ihm alles abgenommen, sogar das überlebenswichtige 
+Mobiltelefon. 
+    </div>
+</div>
+
+</section>
+
+
+        
+<footer>
+    <p>Sie sind am Ende der Reise angekommen, zu der Sie Florian Bachmeier mit seinen Bildern eingeladen hat.<p>
+
+    <p>Gerne können Sie einen Kommentar im Gästebuch hinterlassen oder eine Email schicken an:
+        manus_schliersee@posteo.de</p> 
+    
+    <p>Texte: Florian Bachmeier, Mechtild Manus </p>
+    <p>Gestaltung: Magdalena Waltinger </p>
+
+    <p>Mehr über Florian Bachmeier: www.florianbachmeier.com</p>
+    
+    <p>© Florian Bachmeier</p>
+    
+<p>Unterstützt von Saal Digital und Farben Griesbeck. 
+</p>
+</footer>
+
+</body>
+</html>
